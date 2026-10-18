@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FocusGuard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>FocusGuard</h2>
+  <p>Block distractions. Focus on your goals.</p>
+
+  <label for="duration">Focus duration (minutes)</label>
+  <input type="number" id="duration" min="1" value="25">
+
+  <label for="domain">Website to block</label>
+  <input type="text" id="domain" placeholder="youtube.com">
+
+  <button id="startBtn">Start Focus</button>
+  <p id="status" role="status"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
